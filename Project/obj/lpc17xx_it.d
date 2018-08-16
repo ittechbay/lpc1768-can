@@ -1,0 +1,9 @@
+.\obj\lpc17xx_it.o: ..\App\LPC17xx_it.c
+.\obj\lpc17xx_it.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\lpc17xx.h
+.\obj\lpc17xx_it.o: C:\Keil_v5\ARM\CMSIS\Include\core_cm3.h
+.\obj\lpc17xx_it.o: C:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+.\obj\lpc17xx_it.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmInstr.h
+.\obj\lpc17xx_it.o: C:\Keil_v5\ARM\CMSIS\Include\core_cmFunc.h
+.\obj\lpc17xx_it.o: C:\Keil_v5\ARM\Inc\NXP\LPC17xx\system_LPC17xx.h
+.\obj\lpc17xx_it.o: ..\ExtiDrive\UART\uart.h
+.\obj\lpc17xx_it.o: ..\ExtiDrive\CAN\can.h

@@ -1,0 +1,52 @@
+<html>
+<body>
+<pre>
+<h1>礦ision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: μVision V5.15
+Copyright (C) 2015 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: ad adfw, asf, LIC=X9630-B7RKK-PZTWB-26K0U-VJYCP-9R6Z5
+ 
+Tool Versions:
+Toolchain:       MDK-ARM Standard  Version: 5.15.0
+Toolchain Path:  C:\Keil_v5\ARM\ARMCC\Bin
+C Compiler:      Armcc.exe V5.05 update 2 (build 169)
+Assembler:       Armasm.exe V5.05 update 2 (build 169)
+Linker/Locator:  ArmLink.exe V5.05 update 2 (build 169)
+Library Manager: ArmAr.exe V5.05 update 2 (build 169)
+Hex Converter:   FromElf.exe V5.05 update 2 (build 169)
+CPU DLL:         SARMCM3.DLL V5.15.0
+Dialog DLL:      DARMP1.DLL V1.25.0.0
+Target DLL:      Segger\JL2CM3.dll V2.99.29.0
+Dialog DLL:      TARMP1.DLL V1.24.0.0
+ 
+<h2>Project:</h2>
+F:\zbl\book\旺宝-Beemer宝马1768(2015.09)V2.0\3.源代码-Example\1、基础例程-Basis\【25】宝马1768CAN实验（20160414）\CAN滤波\Project\Project.uvproj
+Project File Date:  04/30/2014
+
+<h2>Output:</h2>
+*** Using Compiler 'V5.05 update 2 (build 169)', folder: 'C:\Keil_v5\ARM\ARMCC\Bin'
+Rebuild target 'CAN(滤波)'
+compiling core_cm3.c...
+assembling startup_LPC17xx.s...
+compiling system_LPC17xx.c...
+compiling main.c...
+..\App\main.c(41): warning:  #223-D: function "CAN_SetACCF" declared implicitly
+        CAN_SetACCF(ACCF_ON);           //??始化使???瞬?
+..\App\main.c: 1 warning, 0 errors
+compiling LPC17xx_it.c...
+compiling CAN.c...
+..\ExtiDrive\CAN\CAN.c(87): warning:  #177-D: variable "i" was declared but never referenced
+        uint32_t i;
+..\ExtiDrive\CAN\CAN.c(88): warning:  #177-D: variable "address" was declared but never referenced
+        unsigned long address = 0;
+..\ExtiDrive\CAN\CAN.c(214): warning:  #177-D: variable "i" was declared but never referenced
+    uint32_t i;
+..\ExtiDrive\CAN\CAN.c: 3 warnings, 0 errors
+compiling uart.c...
+linking...
+Program Size: Code=2048 RO-data=304 RW-data=56 ZI-data=672  
+".\obj\Project.axf" - 0 Error(s), 4 Warning(s).
+</pre>
+</body>
+</html>
